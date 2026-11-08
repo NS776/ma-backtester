@@ -23,7 +23,7 @@ python main.py --ticker AAPL --short 50 --long 200
 | Buy and hold | 928.5% | 0.96 | -38.5% |
 | Strategy | 407.3% | 0.81 | -45.6% |
 
-The crossover strategy returned 407.3%, so it lost to buy-and-hold, which returned 928.5%, on AAPL (2015-2025).
+The crossover strategy returned 407.3%, so it lost to buy-and-hold, which returned 928.5%, on AAPL (2015-2025), due to slow reaction to sharp market falls.
 
 ![Equity curve](AAPL_equity_curve.png)
 ![Signals](AAPL_signals.png)

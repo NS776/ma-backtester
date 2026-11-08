@@ -9,6 +9,10 @@ A Python tool that backtests a moving-average crossover strategy against buy-and
 
 ## Usage
 ```bash
+git clone https://github.com/NS776/ma-backtester.git
+cd ma-backtester
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 python main.py --ticker AAPL --short 50 --long 200
 ```
